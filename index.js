@@ -1,3 +1,12 @@
 import { users } from "./data.js";
 
-console.log(users);
+const firstLastNames = users.map(
+  (users) =>
+    users.name.first +
+    " " +
+    users.name.last +
+    " is from " +
+    users.location.country
+);
+
+console.log(firstLastNames);
