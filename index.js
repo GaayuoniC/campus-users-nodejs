@@ -1,6 +1,6 @@
 import { users } from "./data.js";
 
-const FirstLastNames = users.map(
+const firstLastNames = users.map(
   (users) =>
     users.name.first +
     " " +
@@ -9,4 +9,4 @@ const FirstLastNames = users.map(
     users.location.country
 );
 
-console.log(FirstLastNames);
+console.log(firstLastNames);
