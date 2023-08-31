@@ -1,5 +1,7 @@
 import { users } from "./data.js";
 
-const FirstLastNames = users.map((users) => users.name);
+const FirstLastNames = users.map(
+  (users) => users.name.first + " " + users.name.last 
+);
 
 console.log(FirstLastNames);
